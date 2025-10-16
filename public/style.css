@@ -1,1 +1,23 @@
 @import "tailwindcss";
+
+
+.main-a {
+    @apply flex gap-5 flex-col place-items-center justify-center bg-gray-300 border-2 border-black rounded-2xl h-[300px] w-[300px];
+    @apply transition-transform hover:scale-110;
+}
+
+.main-a h1 {
+    @apply font-semibold text-center;
+}
+
+main div {
+    @apply w-full min-h-10 bg-white flex flex-col p-5 rounded-2xl border-2 border-black;
+}
+
+div h1 {
+    @apply font-bold text-center text-2xl mb-2 underline;
+}
+
+div a {
+    @apply text-cyan-800;
+}
